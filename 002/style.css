@@ -1,0 +1,27 @@
+.head1{
+    color: blue;
+    text-align: center;
+    text-decoration: wavy underline;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+.head2{
+    
+    color: gainsboro;
+    text-align: start ;
+    text-decoration: wavy underline;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    text-transform:uppercase;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+}
+
+.head3{
+    text-transform:capital;
+}
