@@ -1,0 +1,63 @@
+.box{
+    width:300px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 30px;
+}
+
+.box1{
+    background-image: linear-gradient(208deg, orange, white, green)
+    
+}
+
+.box2{
+    width: 300px;
+    background-image: radial-gradient(circle, rgb(0, 0, 255), red, yellow);
+}
+
+.box3{
+    border-radius: 30%;
+   background-image: conic-gradient(rgb(195, 0, 255), rgb(255, 255, 255), rgb(128, 0, 30), orange);
+}
+
+.box4{
+
+
+    background-image: url(https://cdn.britannica.com/69/156369-050-75E7FD08/skyline-Dubai-United-Arab-Emirates.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+}
+
+.boxx{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid blue;
+    text-align: center;
+    background-size: cover;
+    background-position: left bottom;
+    background-attachment: no-repeat;
+}
+
+.box5{
+
+
+    background-image: url(https://w0.peakpx.com/wallpaper/532/948/HD-wallpaper-bali-paradise-sunsets-heaven-nature-beautiful-pool-blue.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+}
+
+.box6{
+
+
+    background-image: url(https://images.lifestyleasia.com/wp-content/uploads/sites/7/2024/10/21143213/Untitled-design-69-1600x900.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+}
+
+
