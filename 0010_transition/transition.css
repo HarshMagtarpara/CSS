@@ -1,0 +1,58 @@
+.box{
+    width: 100px;
+    height: 100px;
+   
+    margin: 50px;
+
+}
+
+.box1{ 
+    background-color: rgb(128, 0, 0);
+    transition: all 2s;
+    text-align: center;
+}
+
+.box1:hover{
+    transform: rotate(360deg);
+}
+
+
+.box2{
+    background-color: rgb(34, 255, 0);
+    transition: all 0.5s 0s;
+}
+
+.box2:hover{
+    width: 1000px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    border: 6px solid rgb(128, 128, 128);
+}
+
+.container .box{
+    background-color: rgb(0, 255, 200);
+   
+}
+
+.time1{
+    transition: all 3s linear ;
+}
+.time2{
+    transition: all 3s ease-in ;
+}
+.time3{
+    transition: all 3s ease-out ;
+}
+.time4{
+    transition: all 3s ease-in-out ;
+}
+.time5{
+    transition: all 3s cubic-bezier(1, 0.82, 0.165,0.075);
+}
+
+.container:hover .box{
+    width: 600px;
+}
